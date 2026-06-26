@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AppHolidatyRecyclerView</string>
+    <string name="hello_message">Hello world VL locale</string>
 </resources>

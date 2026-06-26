@@ -8,11 +8,22 @@
     android:layout_height="wrap_content">
 
     <TextView
+        android:id="@+id/holiday_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата"
+        android:textSize="30sp"
+        android:height="90dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
         android:id="@+id/holiday_name_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Название праздника"
-        android:textSize="16sp"
+        android:textSize="30sp"
+        android:height="90dp"
         android:layout_marginTop="10dp"/>
 
     <TextView
@@ -20,6 +31,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Дата"
-        android:textSize="16sp"
+        android:textSize="30sp"
+        android:height="90dp"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"/>
+
+
+
 </LinearLayout>
